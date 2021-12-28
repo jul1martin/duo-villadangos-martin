@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    color:#E5E7E6;
+    font-family: 'Rubik', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FB8B24;
+    border-radius: 50px;
+}
+
+body {
+    background-color:black;
+}
+
+.header {
+    background-color: Black;
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-menu.show {
+    background-color: #FB8B24;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+h2 {
+    color: #E5E7E6;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 200px;
+    margin-top: 100px
+}
+
+.titulo-disco,.indextitulo {
+    text-align: center;
+    font-weight: 550;
+    margin:20px;
+}
+
+.integrantesindex {
+    margin-bottom: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.head {
+    background-color: #FB8B24;
+}
+
+.tamañoimagen {
+    width: 700px;
+    height: 500px;
+    margin: 10px;
+}
+
+.carousel-inner  {
+    width: 700px;
+    height: 500px;
+}
+
+.carousel.slide {
+    width: 700px;
+    height: 500px;
+}
+
+.centrarcar {
+    display:flex;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon {
+    background-color:unset;
+}
+
+.carousel-control-next-icon {
+    background-color:unset;
+}
+
+nav {
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-brand {
+    height: 90px;
+}
+
+.nav-item {
+    text-align: center;
+    margin-left: 25px;
+}
+
+.nav-link.active {
+    margin-left: 600px;
+}
+
+.integrantes {
+    color: #E5E7E6;
+    text-align: center;
+}
+
+.card {
+    background-color: #FB8B24;
+    margin-bottom: 50px;
+}
+
+.imagen-resume {
+    height: 400px;
+}
+
+.botonbio {
+    background-color:black;
+    color:#E5E7E6;
+    min-height: 0px;
+}
+
+.card {
+    min-height: 650px;
+}
+
+.card-title {
+    color: black;
+    font-size: 25px;
+}
+
+.card-text {
+    color: black
+}
+
+footer {
+    background-color: #FB8B24;
+    font-family: 'Rubik', sans-serif;
+}
+
+.artistas {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.redes {
+    margin: 10px;
+    width: 40px;
+}
+
+.inicio {
+    margin: 10px;
+    width: 40px;
+    text-align: end;
+}
+
+.devby {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:black;
+}
+
+.saul-vitti {
+    width: 500px;
+    height: 450px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #FB8B24;
+}
+
+.textoduo {
+    margin: 10px;
+}
+
+.bios {
+    width:348px;
+    height: 400px;
+    border: 1px solid #FB8B24;
+}
+
+.actartistica {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.parrafosbio {
+    text-align: center;
+}
+
+.iconos {
+    text-align: center;
+}
+
+.titulos-canciones {
+    text-align: center;
+}
+
+.video-actartistica {
+    margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.formcontacto {
+    text-align: center;
+    margin: 0px;
+    min-height: 600px;
+}
+
+.colorform {
+    color: black;
+    width: 300px;
+    border-radius: 10px ;
+    border: 2px solid #FB8B24;
+}
+
+.mensajeform {
+    height: 150px;
+    margin-bottom:10px;
+}
+
+.buttoncontacto {
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px ;
+    border: 2px solid #FB8B24;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.tapa-disco {
+    height: 650px;
+    margin-bottom: 20px;
+}
+
+.resumen-disco {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 50px;
+}
+
+.lista-canciones {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.link-bandcamp {
+    color: #FB8B24;
+    text-decoration: none;
+}
+
+.historia-cancion {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: initial;
+    font-size: 25px;
+}
+
+.separador {
+    background-color: #FB8B24;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 20px;
+    border-radius: 15px;
+}
+
+.separador-amigos-cacho {
+    background-color: #FB8B24;
+    height: 20px;
+    width: 75%;
+    border-radius: 15px;
+}
+
+.separador-solo-piazzolla {
+    background-color: #FB8B24;
+    height: 20px;
+    width: 75%;
+    border-radius: 15px;
+}
+
+.obras-text {
+    text-align: center;
+    margin: 40px;
+}
+
+.temas-disco {
+    margin-left: 600px;
+    text-align: initial;
+    list-style-image: url("/assets/iconos/ul.png");
+}
+
+.contratapa-disco {
+    height:400px;
+    margin-right: 400px;
+}
+
+.lista-temas-disco {
+    margin-top: 125px;
+}
+
+.texto-sebastian-dominguez {
+    text-align: center;
+    width: 50%;
+    font-size:25px;
+    margin-top: 25px;
+}
+
+.integrantes-cacho-desc {
+    margin: 15px;
+    text-align:center;
+    margin-left:750px;
+    margin-right: 750px;
+    font-size:15px;
+}
+
+/* CELULARES RESPONSIVE */
+
+@media only screen and (max-width:667px)  {
+
+    .nav-link.active {
+        margin-left: 0px;
+    }
+
+    .redes {
+        margin: 10px;
+        width: 30px;
+    }
+
+    .tamañoimagen {
+        width: 360px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .carousel-inner {
+        width: 360px;
+        height: 300px;
+    }
+
+    .carousel.slide {
+        width: 360px;
+        height: 300px;
+    }
+
+    .video-actartistica {
+        width: 350px;
+        margin-bottom: 10px;
+    }
+
+    .saul-vitti {
+        width: 297px;
+        height: 350px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #FB8B24;
+    }
+
+    .bios {
+        margin-bottom: 10px;
+    }
+
+    .tapa-disco {
+        height: 300px;
+    }
+
+    .resumen-disco {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .contratapa-disco {
+        height:250px;
+        margin-right: 0px;
+        width: 325px;
+    }
+
+    .temas-disco {
+        margin-left: 0px;
+        text-align: initial;
+        list-style-image: url("/assets/iconos/ul.png");
+    }
+
+    .historia-cancion {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .separador {
+        background-color: #FB8B24;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 0px;
+        border-radius: 0px;
+    }
+
+    .lista-temas-disco {
+        margin-top: 0px;
+    }
+
+    .texto-sebastian-dominguez {
+        width: 100%;
+    }
+
+    .integrantes-cacho-desc {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .integrantes-cacho {
+        height: 200px;
+    }
+
+    .card {
+        margin-left:35px
+    }
+}
+
+/* TABLETS RESPONSIVE */
+
+@media only screen and (min-width:668px) and (max-width:1023px)  {
+
+    .nav-link.active {
+        margin-left: 0px;
+    }
+
+    .tamañoimagen {
+        width: 800px;
+        height: 600px;
+        margin: 10px;
+    }
+
+    .carousel-inner {
+        width: 800px;
+        height: 600px;
+    }
+
+    .carousel.slide {
+        width: 800px;
+        height: 600px;
+    }
+
+    .saul-vitti {
+        width:280px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #FB8B24;
+        margin-left:0px;
+    }
+
+    .bios {
+        width: 300px;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+
+    .buttoncontacto {
+        color: black;
+        margin-top: 10px;
+        border-radius: 10px ;
+        border: 2px solid #FB8B24;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 390px;
+    }
+
+    .contact {
+        text-align: center;
+        margin-top:100px;
+        margin-bottom: 20px;
+    }
+
+    .contratapa-disco {
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .resumen-disco {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .historia-cancion {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .navbar {
+        width: 768px;
+    }
+
+    .integrantes-cacho-desc {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .texto-sebastian-dominguez {
+        width: 75%;
+    }
+
+    .historia-cancion {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .contratapa-disco {
+        width: 0px;
+        height:0px;
+    }
+
+    .lista-temas-disco {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1025px)  {
+
+    .nav-link.active {
+        margin-left: 0px;
+    }
+
+    .tamañoimagen {
+        width: 800px;
+        height: 600px;
+        margin: 10px;
+    }
+
+    .carousel-inner {
+        width: 800px;
+        height: 600px;
+    }
+
+    .carousel.slide {
+        width: 800px;
+        height: 600px;
+    }
+
+    .saul-vitti {
+        width:330px;
+        height: 350px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #FB8B24;
+    }
+
+    .bios {
+        width: 340px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .buttoncontacto {
+        color: black;
+        margin-top: 10px;
+        border-radius: 10px ;
+        border: 2px solid #FB8B24;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 390px;
+    }
+
+    .contact {
+        text-align: center;
+        margin-top:100px;
+        margin-bottom: 20px;
+    }
+
+    .contratapa-disco {
+        width: 0px;
+        height:0px;
+    }
+
+    .resumen-disco {
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .historia-cancion {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .lista-temas-disco {
+        margin-top: 0px;
+    }
+
+    .texto-sebastian-dominguez {
+        width: 75%;
+    }
+
+    .integrantes-cacho-desc {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
