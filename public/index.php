@@ -3,7 +3,7 @@
 <head>
   <?php require("../public/basics/head.php") ?>
 
-  <title>Villadangos & Martin | Disco Solo Piazzolla</title>
+  <title>Villadangos & Martin | Disco Solo Piazzolla.</title>
 
 </head>
 <body>
