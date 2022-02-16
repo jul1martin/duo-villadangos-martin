@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <?php require("./public/basics/head.php") ?>
+  <title>Villadangos & Martin | Contacto </title>
+</head>
+<body>
+
+<?php require("./public/basics/nav.php") ?>
+
+<div class="container-fluid">
+  <main>
+    <h1 class="contact">Contacto</h1>
+    <form action="contacto.html" class="formcontacto" method="post">
+      <p>Nombre *</p>
+      <input type="text" class="colorform" name="nombre" required=""><br><br>
+      <p>Asunto *</p>
+      <input type="text" class="colorform" name="asunto" required=""> <br><br>
+      <p>Mail *</p>
+      <input type="email" class="colorform" name="email" required=""> <br><br>
+      <p>Mensaje *</p>
+      <textarea cols="30" rows="10" class="mensajeform colorform" name="msg" required=""></textarea> <br>
+      <input type="submit" value="Enviar" class="buttoncontacto" name="enviar">
+    </form>
+  </main>
+</div>
+
+  <?php require("../public/basics/footer.php")?>
+
+</body>
+<?php
+include "correo.php";
+?>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</html>
